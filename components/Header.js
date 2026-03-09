@@ -68,7 +68,7 @@ const Header = ({ toggleTheme, isDarkMode, overallStatus = "operational" }) => {
               <div className="ml-2.5 sm:ml-3">
                 <div className="flex items-center">
                   <h1 className="text-sm sm:text-lg font-bold text-gray-900 dark:text-white">
-                    ProDevOpsGuy
+                    Netlivy Status
                   </h1>
                   <div className="flex items-center ml-2 sm:ml-3">
                     <motion.div
