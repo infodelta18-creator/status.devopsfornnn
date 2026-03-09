@@ -156,13 +156,9 @@ export default function SiteDetail() {
           Netlivy Status
         </title>
         <meta
-          name="description"
-          content={
-            site
-              ? `Current status and performance metrics for ${site.name}`
-              : "Loading site status information"
-          }
-        />
+  name="description"
+  content="Netlivy Status"
+/>
         <link rel="icon" href="/info.jpg" type="image/svg+xml" />
       </Head>
 
