@@ -163,7 +163,7 @@ export default function SiteDetail() {
               : "Loading site status information"
           }
         />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/info.jpg" type="image/svg+xml" />
       </Head>
 
       <Header toggleTheme={handleToggleDarkMode} isDarkMode={darkMode} />
