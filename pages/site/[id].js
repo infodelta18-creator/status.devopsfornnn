@@ -153,9 +153,7 @@ export default function SiteDetail() {
     >
       <Head>
         <title>
-          {site
-            ? `${site.name} Status - ProDevOpsGuy`
-            : "Loading Site Status..."}
+          Netlivy Status
         </title>
         <meta
           name="description"
