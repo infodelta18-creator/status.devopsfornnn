@@ -233,15 +233,15 @@ export default function Home() {
       variants={pageTransition}
     >
       <Head>
-        <title>ProDevOpsGuy - Status Dashboard</title>
+        <title>Netlivy Status</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="Real-time status of ProDevOpsGuy Tech platforms and websites"
+          content="Real-time status of Netlivy Status platforms and websites"
         />
         <meta name="theme-color" content="#3b82f6" />
         <meta name="color-scheme" content="light dark" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/info.jpg" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
