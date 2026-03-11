@@ -8,21 +8,9 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "Twitter",
-      href: "https://twitter.com/NotHarshhaa",
+      href: "https://x.com/netlivy",
       icon: Twitter,
       hoverColor: "hover:text-blue-500 dark:hover:text-blue-400",
-    },
-    {
-      name: "GitHub",
-      href: "https://github.com/NotHarshhaa",
-      icon: Github,
-      hoverColor: "hover:text-gray-900 dark:hover:text-white",
-    },
-    {
-      name: "LinkedIn",
-      href: "https://www.linkedin.com/in/harshhaa-vardhan-reddy/",
-      icon: Linkedin,
-      hoverColor: "hover:text-blue-700 dark:hover:text-blue-300",
     },
   ];
 
@@ -38,7 +26,7 @@ const Footer = () => {
               animate={{ opacity: 1 }}
             >
               <Globe className="h-4 w-4 text-blue-500" />
-              <span className="text-sm font-semibold">ProDevOpsGuy Tech</span>
+              <span className="text-sm font-semibold">Netlivy Status</span>
             </motion.div>
 
             <motion.div 
@@ -65,7 +53,7 @@ const Footer = () => {
               <Code className="h-3 w-3" />
               <span>with</span>
               <Heart className="h-3 w-3 text-red-500 animate-pulse" />
-              <span>by ProDevOpsGuy</span>
+              <span>by Netlivy</span>
             </div>
 
             <div className="text-center text-[10px] text-gray-600 dark:text-gray-500">
@@ -87,11 +75,8 @@ const Footer = () => {
                 transition={{ duration: 0.5 }}
               >
                 <Globe className="h-5 w-5 text-blue-500" />
-                <span className="font-semibold">ProDevOpsGuy Tech</span>
+                <span className="font-semibold">Netlivy Status</span>
               </motion.div>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Empowering DevOps excellence through innovative solutions and best practices.
-              </p>
             </div>
 
             {/* Social Links */}
@@ -126,7 +111,7 @@ const Footer = () => {
                 <Code className="h-4 w-4" />
                 <span>with</span>
                 <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-                <span>by ProDevOpsGuy</span>
+                <span>by Netlivy</span>
               </motion.div>
             </div>
 
@@ -139,7 +124,6 @@ const Footer = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <GitBranch className="h-4 w-4 text-green-500" />
-                <span>Updated via GitHub Actions</span>
               </motion.div>
               <div className="flex flex-col items-end text-xs text-gray-600 dark:text-gray-500">
                 <span>Powered by Next.js & Tailwind CSS</span>
